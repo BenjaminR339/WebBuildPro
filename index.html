@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WebBuild Pro offers professional website development services including custom website development, responsive design, e-commerce solutions, and more.">
+    <title>WebBuild Pro - Professional Website Development Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="title">
+                <h1>WebBuild Pro</h1>
+                <p>Your Professional Website Development Partner</p>
+            </div>
+            <div class="theme-switch-wrapper">
+                <label class="theme-switch" for="checkbox">
+                    <input type="checkbox" id="checkbox">
+                    <div class="slider round"></div>
+                </label>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section class="hero">
+            <h1>We Build Amazing Websites</h1>
+            <p>Professional, Affordable, and Customized for Your Needs</p>
+        </section>
+        <section id="services" class="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Custom Website Development</li>
+                <li>Responsive Design</li>
+                <li>E-commerce Solutions</li>
+                <li>Website Maintenance</li>
+                <li>Web Hosting</li>
+            </ul>
+        </section>
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <form action="mailto:ben@garageisp.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <p>Contact form currently does not work on mobile devices</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 WebBuild Pro. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
